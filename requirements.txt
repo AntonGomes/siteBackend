@@ -2,3 +2,4 @@ flask
 gunicorn
 json
 flask-cors
+flask_cors
