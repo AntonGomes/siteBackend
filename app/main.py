@@ -20,12 +20,14 @@ def readFromFile():
     data = json.load(file)
     return data
 
+"""
 @app.route("/setUrls")
 @cross_origin()
 def setUrls():
     url = request.args["url"]
     writeToFile(url)
     return readFromFile()
+"""
 
 @app.route("/")
 @cross_origin()
